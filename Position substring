@@ -1,0 +1,28 @@
+function position(str,substr){
+  return str.indexOf(substr);
+}
+
+function substrFixed(str){
+    return str.indexOf("is");
+}
+
+substrFixed("hale");
+substrFixed("istanbul");
+
+
+
+const string = 'praise';
+
+position(string, "is");
+position("risky", "is");
+
+position("hale","l");
+
+
+
+//Melih in gönderdigi bu code u fonksiyona cevirdik. 
+
+const paragraph = 'The quick brown fox jumps over the lazy dog. If the dog barked, was it really lazy?';
+
+const searchTerm = 'dog';
+const indexOfFirst = paragraph.indexOf(searchTerm);

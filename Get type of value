@@ -1,0 +1,6 @@
+function typeOf (a) {
+  return typeof a;
+}
+
+typeOf(NaN);
+typeOf(['array']);

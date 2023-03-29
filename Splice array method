@@ -1,0 +1,65 @@
+//1- Removing elements from an array starting at a specific index:
+/*const numbers = [1, 2, 3, 4, 5, 6, 7];
+//remove 2 elements starting from index 2
+const removed = numbers.splice(2,2)
+console.log(removed);
+console.log(numbers);
+const removed2 = numbers.splice(2,2);
+console.log(removed2);
+console.log(numbers);*/
+
+//2-Inserting elements into an array at a specific index
+/*const fruits = ['apple', 'banana', 'mango'];
+// insert 'orange' and 'grape' at index 2
+const fruits2 = fruits.splice(2,1,"orange","grape", "armut")
+console.log(fruits2);
+console.log(fruits);*/
+
+//3-Replacing elements in an array at a specific index
+/*const colors = ['red', 'green', 'blue', 'yellow'];
+//replace 2 elements starting from index 1 with 'orange' and 'purple'
+const colors2 = colors.splice(1,2,"orange","purple");
+console.log(colors);
+console.log(colors2);*/
+
+//4-Removing elements from an array starting at the end:
+/*const letters = ['a', 'b', 'c', 'd', 'e'];
+//remove the last 3 elements
+const removed = letters.splice(-3);
+console.log(letters);
+console.log(removed);*/
+
+//5-Inserting elements at the end of an array
+/*const animals = ['lion', 'tiger', 'zebra', 'giraffe'];
+animals.splice(animals.length,0,"bear");
+console.log(animals);*/
+
+//6- Removing elements from an array based on a condition:
+// Bunu bir challenge olarak ekledim, üzerinde bi düsünelim bakalim. 
+const numbers = [1, 2, 3, 4, 5];
+const removed = numbers.splice(0, numbers.length, ...(numbers.filter(n => n % 2 === 0))); // remove all odd elements
+console.log(removed); // [1, 3, 5]
+console.log(numbers); // [2, 4]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

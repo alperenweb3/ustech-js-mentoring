@@ -1,0 +1,32 @@
+function nthCharacter(a,b){
+  if(a.length >= b ){
+      return a[b-1];
+  }else{
+    return "I am Sorry";
+  }
+}
+
+nthCharacter("abcd",5);
+
+// Alternative Solution
+
+function nthCharacter2(a,b){
+  if(a.length >= b ){
+      return a.charAt(b-1);
+  }else{
+    return "I am Sorry";
+  }
+}
+nthCharacter2("abcd",5);
+
+
+
+//Stringler array özelligi gösterirler
+
+let string = "alperen";
+
+string.length
+let string2 = ["a","l","p","e","r","e","n"];
+
+string[0];
+string2[3];

@@ -1,0 +1,26 @@
+//Birseyin nasil olmadigini görmek baska birseyin nasil oldugunu bize gösterir. 
+
+//St.Rider Solution
+//function firstHalf (a,b=a.lenght/2){
+  //return a.splice(b);
+//}
+//firstHalf("hale",0)
+
+function firstHalf(str){
+  if(str.length % 2 == 0){
+      return str.slice(0, str.length/2);
+  }
+  return "Cift Haneli bir string yazin";
+}
+
+firstHalf("hale");
+firstHalf("alperen");
+firstHalf("melihunver")
+
+// Cahit Solution
+
+function firstHalf2(str){
+  return str.slice(1, str.length/2);
+}
+
+firstHalf2("alperen");

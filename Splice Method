@@ -1,0 +1,17 @@
+let string = "alperen";
+
+string.slice(0,4);
+// e kadar
+string.slice(2,5);
+
+let string2 = ["ahmet","mustafa","Orkun","alperen"];
+
+//string3.splice(2,0,"melih");
+string2.splice(2,0,"melih");
+
+console.log(string2);
+
+const myArray = ["apple", "banana", "orange", "kiwi"];
+myArray.splice(2, 0, "grape");
+
+console.log(myArray);

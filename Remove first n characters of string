@@ -1,0 +1,21 @@
+function remove(a,n){
+    if(a.length > n ){
+      return a.slice(n);
+      //return a.slice(0,n);
+  }else{
+    return `Girdigin sayi ${a.length-1} den büyük bir sayi`;
+  }
+}
+
+remove("abcdefg",3);
+remove("ahmet", 2);
+remove("ahmet", 7);
+remove("alperen", 9);
+
+let string = "alperen";
+
+string.slice(0,4);
+// e kadar
+string.slice(2,5);
+
+

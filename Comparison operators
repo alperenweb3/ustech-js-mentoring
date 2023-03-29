@@ -1,0 +1,26 @@
+function compare (a,b){
+  // a ve b ikisi de ayni tip deger mi 
+  // degerlerine bakacak 
+  if(a===b){
+    return true;
+  }else{
+    return false;
+  }
+}
+
+function compare2(a,b){
+  return a===b;
+}
+
+function areEqualAndSameType(a, b) {
+  return a === b && typeof a == typeof b;
+}
+areEqualAndSameType(3,"3");
+
+
+compare2(3,3);
+compare2(3,"3");
+compare2(true,true);
+compare2(true,false);
+compare2(false,false);
+compare2("2","2");

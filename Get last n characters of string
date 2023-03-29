@@ -1,0 +1,10 @@
+function lastNchar (str, n=3){
+  if(typeof str == "string" && typeof n == "number"){
+      return str.slice(-n);
+  }else{
+    return "First parameter must be string and second parameter must be a number!!!"
+  }
+}
+
+lastNchar("alperen",3);
+
