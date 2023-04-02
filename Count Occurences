@@ -1,0 +1,30 @@
+// 1016-Zeynep
+function countOccurences(a,b){
+  let count = b.match(new RegExp(a,"g"));
+  return count.length;  
+  //https://regexone.com/
+}
+
+countOccurences('m', 'how many times does the character occur in this sentence?')
+
+//1000-Ahmet Uslu
+function CountLetter(a, b) {
+  let matches = b.match(new RegExp(a, 'g'));
+  return matches ? matches.length : 0;
+}
+
+CountLetter('m', 'how many times does the character occur in this sentence?');
+
+//1001-Mustafa
+function split(a,b){
+  let arr = b.split("");
+  console.log(arr);
+  let arrPushed = [];
+  arr.forEach((e) => e==a ? arrPushed.push(e):"");
+  console.log(arrPushed);
+  return arrPushed.length;
+}
+
+split('m', 'how many times does the character occur in this sentence?');
+split('?', 'how many times does the character occur in this sentence?')
+

@@ -1,0 +1,7 @@
+function calculatePercent (a,b){
+  return (b/100) * a;
+}
+
+calculatePercent(100,50);
+calculatePercent(10,1);
+calculatePercent(500,25);

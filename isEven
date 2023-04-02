@@ -1,0 +1,23 @@
+function isEven (number){
+  if (number % 2 === 0){
+    return true;
+  }else{
+    return false;
+  }
+}
+
+const isEven2 = number => number % 2 === 0 ? true : false;
+// If there is more than one parameter, you can use ();
+
+isEven(10);
+isEven2(5);
+
+// Nested Ternary Sample
+const isEven3 = number => number % 2 === 0 
+? true 
+: number == 5 ? "tebrikler"
+: false;
+
+isEven3(7);
+isEven3(5);
+isEven3(10);

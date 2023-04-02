@@ -1,0 +1,23 @@
+function checkString(a,b){
+  if(a.includes(b)){
+    return b + a;
+  }else{
+    return a + b;  
+  }
+}
+
+checkString('cheese', 'cake');
+checkString('lips', 's');
+checkString('Java', 'script');
+/* 
+Implicit & Explicit Return 
+
+https://medium.com/@bunlong/arrow-functions-return-rules-in-javascript-b63ed5f25994
+*/
+
+let myFunction = (a,b) => a.includes(b) ? b + a : a + b;
+// if there is more than one parameter you shoud use ();
+
+myFunction('cheese', 'cake');
+myFunction('lips', 's');
+myFunction('Java', 'script');
